@@ -2,7 +2,7 @@
 The repository is home to the sample data and executions leveraged during my thesis work conducted during the summer of 2021. 
 
 In order to proceed with the research with the topic for my thesis, I have selected a list of topics which are relevant to my interest domain and for which I can source data either through approved data access from the organization or through Open Access API's - Twitter (through Tweepy), Reddit (through PRAW).
-The initial set of topics I selected based on initial literature review, data sourcing and feasibility analysis were as follows: 
+The initial set of topics I proposed based on initial literature review, data sourcing and feasibility analysis were as follows: 
 
 ### 1.User intent and response prediction in omni-channel advertising landscape
 Click through rate prediction is one of the oldest problem in the adtech domain. But with increasing number of alternate screens and types of addressable mediums, marketers can often lose track of the opportunity to effeciently and effectively reach this user. 
