@@ -4,7 +4,7 @@ The repository is home to the sample data and executions leveraged during my the
 In order to proceed with the research with the topic for my thesis, I have selected a list of topics which are relevant to my interest domain and for which I can source data either through approved data access from the organization or through Open Access API's - Twitter (through Tweepy), Reddit (through PRAW).
 The initial set of topics I proposed based on initial literature review, data sourcing and feasibility analysis were as follows: 
 
-### 1.User intent and response prediction in omni-channel advertising landscape
+### 1.User response prediction in omni-channel advertising landscape
 Click through rate prediction is one of the oldest problem in the adtech domain. But with increasing number of alternate screens and types of addressable mediums, marketers can often lose track of the opportunity to effeciently and effectively reach this user. 
 During this project we look to analyse and predict user response to digital ads based on cross-screen exposure while also looking to resolve the optimal frequency challenge. For this we will be leveraging a private click stream data for which access was approved by current employer (MiQ digital) and clubbing this with linear and CTV commercial reach and the social standing of the brand and it's offering bench marked against category performance. An aggreagted and hashed sample to the data will be provided for reference.
 For the purpose of the project we will be training our model based on ad serving data for a month (Data for Feb) and testing the model on ad serving attributes for the first week of March. 
