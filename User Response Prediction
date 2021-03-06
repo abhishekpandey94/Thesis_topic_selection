@@ -37,3 +37,13 @@ format: Feature	(Type) -  Description
 - social_awareness	(Numerical) - 	Social activity volume around the brand and product indexed
 - social_sentiment	(Numerical)- 	Social sentiment around the brand and product indexed
 - is_click* (target column)	(Categorical)- Target variable specifies the eventual interaction with the impression
+
+
+
+################ Similar Works #################
+https://arxiv.org/pdf/1609.06018v1.pdf - Deep CTR Prediction in Display Advertising	- "Junxuan Chen, Baigui Sun, Hao Li, Hongtao Lu, Xian-Sheng Hua (Department of Computer Science and Engineering, Shanghai Jiao Tong University and Alibaba Group), Hangzhou, China {chenjunxuan, htlu}@sjtu.edu.cn {baigui.sbg, lihao.lh, xiansheng.hxs}@alibaba-inc.com"
+https://arxiv.org/pdf/2101.02342v1.pdf - User Response Prediction in Online Advertising - " ZHABIZ GHARIBSHAH∗, Dept. of Computer & Elect. Eng. and Computer Science, Florida Atlantic University, XINGQUAN ZHU∗ , Dept. of Computer & Elect. Eng. and Computer Science, Florida Atlantic University"
+https://arxiv.org/pdf/1809.02213v1.pdf - Dynamic Hierarchical Empirical Bayes: A Predictive Model Applied to Online Advertising - Yuan Yuan (yuyuan@adobe.com), Xiaojing Dong (xdong1@scu.edu), Chen Dong (chedong@adobe.com), Yiwen Sun (yisun@adobe.com), Zhenyu Yan (wyan@adobe.com), Abhishek Pani (apani@adobe.com)
+https://arxiv.org/pdf/1703.02091v4.pdf - Optimized Cost per Click in Taobao Display Advertising	"Han Zhu,  Junqi Jin, Chang Tan, Fei Pan, Yifan Zeng, Han Li, Kun Gai"
+https://towardsdatascience.com/using-neural-networks-with-embedding-layers-to-encode-high-cardinality-categorical-variables-c1b872033ba2 - Using neural networks with embedding layers to encode high cardinality categorical variables
+
