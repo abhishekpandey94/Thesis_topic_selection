@@ -1,0 +1,54 @@
+Thesis proposed Topic 2
+Analysing the impact of creative attributes and contextual parameters on the responsivity towards a digital ad campaign.
+
+The ad creative and the contextual setting in which an ad is placed play an important role in deciding the user response towards a particluar impression. In this project we take a data driven approach analysing the impact of creative attributes like dominant color, label detection, product placement, human presence, etc and contextual parameters like site domain category, device type, supply type, etc on the towards a digital impression.  
+We will leverage Google’s Cloud Vision API (industry best) to extract image feature and club this with the ad serving data (restricted access granted by MiQ) to create a master data set which powers our interpretable models to see how the creative and the contextual parameters a creative is served in impact the response to a particular ad.
+An aggregated sample will be provided for reference. We plan to train the model based on ad servings across 20 advertisers across categories like auto, travel and education to train and test the model.
+
+
+Sample feature set description
+
+Feature	(Type) -	Description
+creative_id	(Numeric) - 	Creative identifier
+supply_type	(Categorical)- 	platform on which impression is served
+clicks	(Numeric)-  	Number of clicks for the particular creative
+above_fold	(Numeric) - 	Number of creatives above fold 
+below_fold	(Numeric) - 	Number of creatives below  fold 
+impressions	(Numeric) - 	Number of impressions served for the particular creative
+pcconversions	(Numeric) - 	Post click conversion 
+pvconversions	(Numeric) - 	Post view conversion 
+conversions	(Numeric) - 	Total conversions = pc_conversions + pv_conversions
+ctr*1000	(Numeric) - 	Click through rate *1000
+cvr*1000	(Numeric) - 	Conversion rate 
+width	(Numeric) - 	Width of the creative
+hieght	(Numeric) - 	Height of the creative
+dimensions	(Categorical) -	Size of the creative  - Width X Height 
+static/animated	(Categorical) -	Whether the creative is static or dynamic 
+animation_length	(Categorical) -	The animation length of animated creative 
+dominant_color	(Categorical) -	The dominant background colour of creative
+has_product	(Categorical) -	If the creative has a product placement 
+has_face 	(Categorical) -	If the creative has a human element 
+logo	(Categorical) -	If the creative has a brand logo 
+in_views	(Numeric) - 	In view impressions 
+out_of_views	(Numeric) -	Out of view impressions 
+inview_clicks	(Numeric) -	inview clicks 
+out_of_view_clicks	(Numeric) -	out of view clicks
+inview_pcconversions	(Numeric) -	inview post click conversion
+outofview_pcconversions	(Numeric) -	out of view post click conversion
+inview_pvconversions	(Numeric) -	inview post view conversion
+outofview_pvconversions	(Numeric) -	out of view post view conversion
+in_view_conversions	(Numeric) -	inview total conversion
+out_of_view_conversions	(Numeric) -	out of view total conversion
+inviewtime	(Numeric) -	Time spent on creative in view
+inview_spends	(Numeric) -	In view creative media spend
+outofview_spends	(Numeric) -	Out of view  creative media spend
+
+
+################### Similar Works ###############################
+Five-Keys-to-Advertising-Effectiveness- Nielsen- http://www.ncsolutions.com/wp-content/uploads/2017/09/NCS_Five-Keys-to-Advertising-Effectiveness.pdf
+Creative-matters-3-ways-affects-campaign-performance - https://www.linkedin.com/pulse/creative-matters-3-ways-affects-campaign-performance-andrew-perry/
+A comparison of image and object level annotation performance of image recognition cloud services and custom Convolutional Neural Network models - Hans-Eric Jönsson, Kristian Nilsson, http://www.diva-portal.org/smash/get/diva2:1327682/FULLTEXT01.pdf
+He, Kaiming, et al. "Delving deep into rectifiers: Surpassing human-level performance on imagenet classification." Proceedings of the IEEE international conference on computer vision. 2015. URL: http://arxiv.org/abs/1409.5185 Accessed: 2019-05-09
+ Official Google Cloud Vision site. https://cloud.google.com/vision/
+
+
