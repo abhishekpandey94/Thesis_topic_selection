@@ -4,36 +4,36 @@ Click through rate prediction is one of the oldest problem in the adtech domain.
 During this project we look to analyse and predict user response to digital ads based on cross-screen exposure while also looking to resolve the optimal frequency challenge. For this we will be leveraging a private click stream data for which access was approved by current employer (MiQ digital) and clubbing this with linear and CTV commercial reach and the social standing of the brand and it's offering bench marked against category performance. An aggreagted and hashed sample to the data will be provided for reference.
 For the purpose of the project we will be training our model based on ad serving data for a month (Data for Feb) and testing the model on ad serving attributes for the first week of March. 
 
-Feature descripion: 
+### Feature descripion: 
 
-| Feature	| Type | Description |
-| ------- |----------| ----------- |
-| auction_id |	Numerical	| Auction identifier unique to each impression served |
-| imp_time	| Timestamp |	Time when impression was served | 
-media_type	Categorical	Type of impression served
-site_domain	Categorical	Site domain where the impression was served
-creative_size	Categorical	Size / Type of creative
-geo_region	Categorical	Region where impression was served
-browser	Categorical	Browser being used by the user
-operating_system	Categorical	Operting system of the user
-adv_specifier	Categorical	Advertiser identifier
-imp_date	Timestamp	Date when impression was served
-fold_position	Categorical	If the impression was served above or below the fold
-device_model_id	Categorical	Device model identifier
-device_type	Categorical	Device type being used by the user
-supply_type	Categorical	Supply platform being leveraged - mobile web , web, mobile app
-dow	Categorical	Day of week local
-hour_of_day	Categorical	Hour of Day local
-user_identifier	Numerical	Custom User identifier for sequencing 
-monthly_exposure	Numerical	Number of brand impressions exposed to during a month
-imp_order	Numerical	Order of brand impression being served
- top_level_category	Numerical	Top level category of the sitedomain assigned by IAB
-prev_imp_time	Timestamp	Timestamp of previous brand impression
-intermittent_time	Numerical	Time since last impression
-category_commercials	Numerical	Number of brand TV commercials user is  exposed to
-brand_commercials	Numerical	Number of category TV commercials user is  exposed to
-time_elapsed_last_commercial	Numerical	Minutes elapsed since last commercial (before the current impression)
-advertiser_category 	Categorical	Advertiser Category 
-social_awareness	Numerical	Social activity volume around the brand and product
-social_sentiment	Numerical	Social sentiment around the brand and product
-is_click* (target column)	Categorical	Target variable specifies the eventual interaction with the impression
+format: Feature	(Type) -  Description 
+
+- auction_id	(Numerical)	-  Auction identifier unique to each impression served 
+- imp_time	(Timestamp)	- Time when impression was served 
+- media_type	(Categorical)- 	Type of impression served
+- site_domain	(Categorical) -	Site domain where the impression was served
+- creative_size	(Categorical)- 	Size / Type of creative
+- geo_region	(Categorical) -	Region where impression was served
+- browser	(Categorical) -	Browser being used by the user
+- operating_system	(Categorical) -	Operting system of the user
+- adv_specifier	(Categorical) -	Advertiser identifier
+- imp_date	(Timestamp) -	Date when impression was served
+- fold_position	(Categorical) -	If the impression was served above or below the fold
+- device_model_id	(Categorical) -	Device model identifier
+- device_type	(Categorical) - 	Device type being used by the user
+- supply_type	(Categorical) -	Supply platform being leveraged - mobile web , web, mobile app
+- dow	(Categorical) -	Day of week local
+- hour_of_day	(Categorical) -	Hour of Day local
+- user_identifier	(Numerical)- 	Custom User identifier for sequencing 
+- monthly_exposure	(Numerical) -	Number of brand impressions exposed to during a month
+- imp_order	(Numerical) -	Order of brand impression being served
+- top_level_category	(Numerical) -	Top level category of the sitedomain assigned by IAB 
+- prev_imp_time	Timestamp	(Timestamp) - of previous brand impression
+- intermittent_time	(Numerical) -	Time since last impression
+- category_commercials	(Numerical) -	Number of brand TV commercials user is  exposed to
+- brand_commercials	(Numerical) -	Number of category TV commercials user is  exposed to
+- time_elapsed_last_commercial	(Numerical)- 	Minutes elapsed since last commercial (before the current impression)
+- advertiser_category 	(Categorical) -	Advertiser Category 
+- social_awareness	(Numerical) - 	Social activity volume around the brand and product indexed
+- social_sentiment	(Numerical)- 	Social sentiment around the brand and product indexed
+- is_click* (target column)	(Categorical)- Target variable specifies the eventual interaction with the impression
